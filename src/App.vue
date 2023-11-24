@@ -31,21 +31,21 @@
     </nav>
     <div class="container mt-3">
       <div class="row">
-        <div class="divbox-1"></div>
-        <div class="divbox-2"></div>
-        <div class="divbox-3"></div>
+        <div class="divbox-1">1 is a flys.</div>
+        <div class="divbox-2">2 is a fish.</div>
       </div>
 
-      <div class="row">
-        <div class="divbox-4"></div>
-        <div class="divbox-5"></div>
-      </div>
+      <div class="divbox-5">5 is a launghing.</div>
 
       <div class="row">
-        <div class="divbox-6"></div>
+        <div class="divbox-3">3 is not a tree.</div>
+        <div class="divbox-4">4 will win three of a kind.</div>
       </div>
+
+        <div class="divbox-6">prepare your mop.</div>
 
     </div>
+    
   </header>
 </template>
 
@@ -56,45 +56,69 @@ export default {};
 </script>
 
 <style>
+.container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .divbox-1 {
   width: 300px;
-  height: 70px;
-  padding: 60px;
+  height: 10px;
+  color: rgb(232, 241, 241);
+  background: rgba(88, 28, 20, 0.705);
+  margin: 10px 0;
+  padding: 50px;
   border: 1px solid red;
 }
 
 .divbox-2 {
   width: 300px;
   height: 70px;
+  margin: 10px 0;
   padding: 60px;
+  color: rgb(232, 241, 241);
+  background: rgba(18, 112, 60, 0.705);
   border: 1px solid red;
 }
 
 .divbox-3 {
   width: 300px;
   height: 70px;
+  margin: 10px 0;
   padding: 60px;
+  color: rgb(232, 241, 241);
+  background: rgba(49, 20, 88, 0.733);
   border: 1px solid red;
 }
 
 .divbox-4 {
   width: 300px;
   height: 70px;
+  margin: 10px 0;
   padding: 60px;
+  color: rgb(232, 241, 241);
+  background: rgba(20, 66, 88, 0.829);
   border: 1px solid red;
 }
 
 .divbox-5 {
   width: 300px;
   height: 70px;
+  margin: 10px 0;
   padding: 60px;
+  color: rgb(232, 241, 241);
+  background: rgba(146, 16, 185, 0.699);
   border: 1px solid red;
 }
 
 .divbox-6 {
   width: 300px;
   height: 70px;
+  margin: 10px 0;
   padding: 60px;
+  color: rgb(232, 241, 241);
+  background: rgba(83, 88, 20, 0.753);
   border: 1px solid red;
 }
 </style>
